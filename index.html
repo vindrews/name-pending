@@ -6,14 +6,29 @@
         
         h1 {
   font-family: courier;
-  border: 4px solid Tomato;
+  border: 4px solid #008CBA;
+  margin: 20px 675px;
         }
         
         p  {
   font-family: courier;
-  border: 2px solid Tomato;
   padding: 50px;
+  margin: 20px 50px
             }
+			
+.paragraph1 {
+border: 4px solid #4CAF50;
+			}
+			
+.paragraph2 {
+border: 4px solid #ff4053;
+			}
+			
+.paragraph3 {
+border: 2px solid #000000;
+margin: 20px 550px;
+			}
+			
         img {
   display: block;
   margin-left: auto;
@@ -28,7 +43,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 20px 100px;
+  margin: 20px 225px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -36,22 +51,22 @@
 .button1 {
   background-color: white; 
   color: black; 
-  border: 2px solid #4CAF50;
+  border: 2px solid #008CBA ;
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: #008CBA;
   color: white;
 }
 
 .button2 {
   background-color: white; 
   color: black; 
-  border: 2px solid #008CBA;
+  border: 2px solid #4CAF50;
 }
 
 .button2:hover {
-  background-color: #008CBA;
+  background-color: #4CAF50;
   color: white;
 }
 
@@ -70,13 +85,13 @@
   </head>
    <body style="background-color:#f5f6ff;">
       <h1 style="text-align:center">History of Pythagoras</h1>
-        <p style="text-align:center">You likely know the name Pythagoras well from high school trigonometry. His equation is the most common and useful equation when it comes to solving a right triangle when given two sides. The equation is as follows: a^2+b^2=c^2. In this equation, 'a' and 'b' represent the shorter sides of the right triangle, and 'c' represents the hypotenuse. Pythagoras created this equation (along with other less well known ones), but he did a lot of other things with his life as well.</p> 
-          <img src="right-triangle.svg" alt="A simplistic drawing of a right triangle. The right angle is on the lower left, the side coming out of it's right being the longer one.">  <!--used an svg because it is a simplistic design, not a real photo, and it loads faster.-->
-            <p style="text-align:center">Pythagoras was not only known for his theorems. He was also a prominent philosopher, who believed that reincarnation could be achieved if one inspected their own soul enough. He was followed by a group of other mathematicians and philosophers like himself, all of which practically worshiped him. To put it more succinctly: he was the leader of a math cult. Pythagoras was known to be very exclusionary, only letting a select few people join this group. He was also extremely controlling of his followers. Pythagoras would not let them eat certain colors of birds, he refused to allow them to eat beans due to his own irrational fear of legumes, and they were also not allowed to question Pythagoras under any circumstances whatsoever. A follower of his once told him that his equation did not actually work if the hypotenuse was equal to 2, as they did not yet have fractions or decimals and thus could not notate the square root of two. In response to this, Pythagoras drowned this man. This is likely why we don't talk much about Pythagoras in school, considering he was insane and loved to kill people who disagreed with him. I think he's funny, though.</p>
-           <img src="17367886-DCAD-49EC-9669-F6C29B0BAB02.jpeg" alt="A painting of Pythagoras. He is wearing white robes and holding out a triangular prism. There is a triangle drawn above his head. He is outdoors, and appears to be preaching."> <!--used a jpeg because its a more complex design with more colors, and is an actual photo of a real life thing. the name would be more convenient, but i uploaded it from my ipad and i cant change file names on there.-->
+        <p class="paragraph paragraph1" style="text-align:center">You likely know the name Pythagoras well from high school trigonometry. His equation is the most common and useful equation when it comes to solving a right triangle when given two sides. The equation is as follows: a^2+b^2=c^2. In this equation, 'a' and 'b' represent the shorter sides of the right triangle, and 'c' represents the hypotenuse. Pythagoras created this equation (along with other less well known ones), but he did a lot of other things with his life as well.</p> 
+         <img src="right-triangle.svg" alt="A simplistic drawing of a right triangle. The right angle is on the lower left, the side coming out of it's right being the longer one.">  <!--used an svg because it is a simplistic design, not a real photo, and it loads faster.-->
+          <p class="paragraph paragraph2" style="text-align:center">Pythagoras was not only known for his theorems. He was also a prominent philosopher, who believed that reincarnation could be achieved if one inspected their own soul enough. He was followed by a group of other mathematicians and philosophers like himself, all of which practically worshiped him. To put it more succinctly: he was the leader of a math cult. Pythagoras was known to be very exclusionary, only letting a select few people join this group. He was also extremely controlling of his followers. Pythagoras would not let them eat certain colors of birds, he refused to allow them to eat beans due to his own irrational fear of legumes, and they were also not allowed to question Pythagoras under any circumstances whatsoever. A follower of his once told him that his equation did not actually work if the hypotenuse was equal to 2, as they did not yet have fractions or decimals and thus could not notate the square root of two. In response to this, Pythagoras drowned this man. This is likely why we don't talk much about Pythagoras in school, considering he was insane and loved to kill people who disagreed with him. I think he's funny, though.</p>
+          <img src="17367886-DCAD-49EC-9669-F6C29B0BAB02.jpeg" alt="A painting of Pythagoras. He is wearing white robes and holding out a triangular prism. There is a triangle drawn above his head. He is outdoors, and appears to be preaching."> <!--used a jpeg because its a more complex design with more colors, and is an actual photo of a real life thing. the name would be more convenient, but i uploaded it from my ipad and i cant change file names on there.-->
          <button class="button button1" type="button" onclick="alert('Triangles have three sides, usually! Secret triangles may have more sides, or less sides, depending on the one you find.')">Triangle Fact!</button> 
-       <button class="button button2" type="button" onclick="alert('Some triangles only have one side, but those are forbidden and thus illegal, so please close out of this tab to avoid an arrest.')">Triangle Fact !</button> 
-      <button class="button button3" type="button" onclick="alert('It's possible for the angles of a triangle to add up to 270 degrees! This happens when a triangle is projected onto a sphere. Spheres are stupid, though. Good triangles always add up to 180 degrees.')">Triangle Fact !!</button>
-	 <p style="text-align:center">Click on these buttons for some DEFINITELY TRUE**** triangle facts!!<br> <br> <br>(*We cannot guarantee truth in the triangle facts.)</p>
-  </body>
+        <button class="button button2" type="button" onclick="alert('It's possible for the angles of a triangle to add up to 270 degrees! This happens when a triangle is projected onto a sphere. Spheres are stupid, though. Good triangles always add up to 180 degrees.')">Triangle Fact!!</button>
+	   <button class="button button3" type="button" onclick="alert('Some triangles only have one side, but those are forbidden and thus illegal, so please close out of this tab to avoid an arrest.')">Triangle Fact!!!</button> 
+	  <p class="paragraph paragraph3" style="text-align:center">Click on these buttons for some DEFINITELY TRUE**** triangle facts!!<br> <br> <br> <br>(*We cannot guarantee truth in the triangle facts.)</p>
+   </body>
 </html>
