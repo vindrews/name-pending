@@ -5,6 +5,10 @@ h1 {
 	border-radius: 13px;
 	margin: 20px 675px;
 		}
+		
+	body{
+		background-color:#f5f6ff;
+		}
 			
 		p  {
 		    font-family: courier;
